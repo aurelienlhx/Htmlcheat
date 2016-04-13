@@ -1,0 +1,28 @@
+<!--
+|
+|	List des balises links utiles pour un site web ou une app
+|
+-->
+
+<!--
+| SE indexation
+| @see https://support.google.com/webmasters/answer/189077?hl=fr
+-->
+<!--
+Permet aux SE de sortir la page avec la langue adapté au visiteur
+@param {locale} lang | lang-territory
+@param {url} 
+-->
+<link rel='alternate' hreflang='{locale}' href='{url}' />
+<!-- 
+Les liens canoniques évitent le duplicate content
+@param {main-url} Url principal sans les paramètre
+-->
+<link rel='canonical' href='{main-url} ' />
+
+<!--
+| CSS 
+| @param media all|screen|print|...
+| @see http://www.w3schools.com/tags/att_link_media.asp
+-->
+ <link rel="stylesheet" href="{url}" type="text/css" media="{media}" />
